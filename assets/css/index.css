@@ -1,0 +1,16 @@
+/* FONTES */
+@import '../fonts/Gilroy-Light/fonts.css';
+@import '../fonts/Gilroy-Medium/fonts.css';
+@import '../fonts/Gilroy-Bold/fonts.css';
+@import '../fonts/Gilroy-ExtraBold/fonts.css';
+@import '../fonts/Gilroy-Heavy/fonts.css';
+@import 'carousel.css';
+/*SECTIONS*/
+@import 'common.css';
+@import 'home.css';
+@import 'funcionalidades.css';
+@import 'vantagens.css';
+@import 'perguntas.css';
+@import 'quemsomos.css';
+@import 'clientes.css';
+@import 'contato.css';

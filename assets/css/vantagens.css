@@ -1,0 +1,47 @@
+section.vant {
+  padding: 50px 0px;
+  background-color: #4973A6;
+}
+section.vant .box-area {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  padding: 15px;
+  text-align: center;
+  background-color: #FFF;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+section.vant .box-area h4 {
+  font-family: 'Gilroy-Bold';
+  color: #4973A6;
+  padding: 15px;
+}
+section.vant .box-area img {
+  width: 70px;
+}
+section.vant button {
+  position: relative;
+  display: block;
+  background-color: #D98F2A;
+  color: #FFF;
+  margin: 20px auto;
+  padding: 12px 40px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Gilroy-Bold';
+  font-size: 1.25em;
+  text-transform: uppercase;
+  outline: none;
+  transition: .5s;
+}
+section.vant button:hover {
+  filter: grayscale(30%);
+  transition: .5s;
+}
+@media (max-width: 500px) {
+  section.vant button {
+    padding: 12px 20px;
+  }
+}

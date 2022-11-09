@@ -1,0 +1,180 @@
+section.quem {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 50px 15px;
+    color: #FFF;
+    background-image: url('../img/bgQuemSomos.jpg');
+    background-size: cover;
+    background-position: bottom center;
+}
+section.quem h2 {
+    position: relative;
+    display: table;
+    padding: 5px 40px;
+    margin: 15px auto;
+    border-bottom: 3px solid  #D98F2A;
+    font-family: 'Gilroy-Bold' ;
+}
+section.quem .area {
+    position: relative;
+    min-height: 610px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+section.quem .box-txt {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    margin-left: 10px;
+    border-left: 3px solid #d98f2a;
+    box-sizing: border-box;
+}
+section.quem .box-txt i {
+    position: absolute;
+    left: -12.5px;
+    font-size: 1.5em;
+    color: #d98f2a;
+}
+section.quem .box-txt i.up {
+    top: -10px;
+}
+section.quem .box-txt i.down {
+    bottom: -10px;
+}
+section.quem .box-txt ul {
+    position: relative;
+    display: block;
+    width: calc(100% + 16px);
+    height: 60vh;
+    left: -16px;
+    overflow-x: hidden;
+    padding-right: 10px;
+    
+}
+section.quem .box-txt ul::-webkit-scrollbar {
+    opacity: .3;
+    width: 10px;
+    height: 10px;
+}
+section.quem .box-txt ul::-webkit-scrollbar-thumb {
+    background: #a1a1a100;
+    border-radius: 10px;
+    transition: .5s;
+}
+section.quem .box-txt ul::-webkit-scrollbar-thumb:hover{
+    background: #00000038;
+    transition: .5s;
+}
+section.quem .box-txt ul::-webkit-scrollbar-track{
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    /* box-shadow: inset 7px 10px 12px #cccccc; */
+}
+section.quem .box-txt ul li {
+    position: relative;
+    list-style-image: url('../img/imgBullet.png') ;
+    list-style-position: outside;
+    margin-bottom: 20px;
+}
+section.quem .box-txt ul li strong {
+    position: relative;
+    display: block;
+    top: -2px;
+    font-family: 'Gilroy-Bold';
+    font-size: 1.5em;
+    color: #e6b64d;
+}
+section.quem .box-txt ul li span {
+    position: relative;
+    display: block;
+    font-size: .8em;
+}
+section.quem .box-txt h1 {
+    font-size: 3em;
+    font-family: 'Gilroy-Bold';
+    margin-bottom: 20px;
+}
+section.quem .box-txt h5 {
+    /* font-size: 3em; */
+    font-family: 'Gilroy-Light';
+    margin-bottom: 20px;
+}
+section.quem .box-txt button {
+    background-color: #D98F2A;
+    color: #FFF;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    transition: .5s;
+    font-family: 'Gilroy-Bold';
+    text-transform: uppercase;
+    outline: none;
+}
+section.quem .box-txt button:hover {
+    filter: grayscale(30%);
+    transition: .5s;
+}
+section.quem .area div:first-child {
+    justify-content: center;
+}
+section.quem .area div:first-child img {
+    margin-bottom: 30px;
+    transition: .5s;
+    opacity: .8;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.quem .area div:first-child img:hover {
+    opacity: 1;
+    transition: .5s;
+}
+div.modal-video {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.75);
+    z-index: 20;
+}
+div.modal-video button {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    color: #FFF;
+    font-size: 2em;
+    z-index: 20;
+}
+div.modal-video .video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    /* max-width: 80vw;
+    max-height: 80vh; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+div.modal-video .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+@media (max-width:767px) {
+    section.quem .box-txt ul li span {
+        font-size: 1em;
+    }    
+}

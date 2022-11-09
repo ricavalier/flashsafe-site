@@ -1,0 +1,40 @@
+section.perg {
+  padding: 50px 15px;
+  background-color: #E6E6E6;
+}
+section.perg h2 {
+  position: relative;
+  display: table;
+  color: #4973A6;
+  padding: 5px 40px;
+  margin: 15px auto;
+  border-bottom: 3px solid  #D98F2A;
+  font-family: 'Gilroy-Bold' ;
+}
+section.perg h3 {
+  font-family: 'Gilroy-Medium';
+}
+section.perg .accordion {
+  border-radius: 10px;
+  overflow: hidden;
+}
+section.perg .accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+section.perg .accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #FFF;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+section.perg .accordion-button::after {
+  background-image: url('../img/icoPlus.svg');
+}
+section.perg .accordion-button:not(.collapsed)::after  {
+  background-image: url('../img/icoMinus.svg');
+}
+section.perg img {
+  margin-bottom: 50px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px #CCC;
+}

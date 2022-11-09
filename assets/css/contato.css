@@ -1,0 +1,98 @@
+section.contato {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 40px 15px 90px;
+  background-image: url('../img/bgContato.jpg');
+  background-size: cover;
+  background-position: bottom center;
+}
+section.contato form {
+  position: relative;
+  display: block;
+  max-width: 550px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #FFF;
+  border-radius: 20px;
+}
+section.contato h2 {
+  font-family: 'Gilroy-Bold';
+}
+section.contato label {
+  font-family: 'Gilroy-Bold';
+}
+section.contato p {
+  padding: 5px 20px 10px;
+}
+section.contato p label.error {
+  font-family: 'Gilroy-Light';
+  font-size: 0.8em;
+  color: #F00;
+}
+section.contato  button.envia, section.contato  button.sair {
+  position: relative;
+  display: block;
+  background-color: #D98F2A;
+  color: #FFF;
+  margin: 20px auto;
+  padding: 12px 40px;
+  border-radius: 10px;
+  border: none;
+  transition: .5s;
+  font-family: 'Gilroy-Bold';
+  font-size: 1.25em;
+  text-transform: uppercase;
+  outline: none;
+}
+section.contato button.envia:hover {
+  filter: grayscale(30%);
+  transition: .5s;
+}
+section.contato .resposta {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -780px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: #FFF;
+  box-sizing: border-box;
+  opacity: .1;
+  transition: 1s;
+}
+section.contato .resposta.active {
+  opacity: 1;
+  top: 0;
+  transition: 1s;
+}
+section.contato .resposta h3 {
+  font-family: 'Gilroy-Bold';
+}
+section.contato .resposta button.fecha {
+  position: absolute;
+  display: block;
+  top: 15px;
+  right:15px;
+  opacity: 0.5;
+}
+section.contato .resposta button.fecha:hover {
+  opacity: 1;
+}
+section.contato .resposta button.fecha:focus {
+  box-shadow: none;
+}
+@media (max-width: 500px) {
+  section.contato form {
+    padding: 10px 0;
+  }
+  section.contato button {
+      padding: 12px 20px;
+  }
+  section.contato .resposta p {
+    padding: 5px 0px 10px;
+  }
+}

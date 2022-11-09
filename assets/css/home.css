@@ -1,0 +1,44 @@
+section.home {
+  position: relative;
+  display: block;
+  width: 100%;
+  background-color: #E6E6E6;
+}
+section.home .area {
+  position: relative;
+  min-height: 610px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+section.home .box-txt {
+  max-width: 500px;
+  color: #4973A6;
+}
+section.home .box-txt h1 {
+  font-size: 3em;
+  font-family: 'Gilroy-Bold';
+  margin-bottom: 20px;
+}
+section.home .box-txt h5 {
+  font-family: 'Gilroy-Light';
+  margin-bottom: 20px;
+}
+section.home .box-txt button {
+  background-color: #D98F2A;
+  color: #FFF;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Gilroy-Bold';
+  font-size: 1.25em;
+  text-transform: uppercase;
+  outline: none;
+  transition: .5s;
+}
+section.home .box-txt button:hover {
+  filter: grayscale(30%);
+  transition: .5s;
+}
+section.home .area div:last-child {
+  justify-content: center;
+}
